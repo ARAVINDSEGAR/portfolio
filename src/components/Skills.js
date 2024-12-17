@@ -12,7 +12,7 @@ const Skills = () => {
         </div>
 
         <div className="row">
-          <div className="col-6 icon-box" data-aos="fade-up">
+          <div className="col-md-6 icon-box" data-aos="fade-up">
             <div className="icon"><FaLaptopCode /></div>
             <h4 className="title">Compétences</h4>
             <p className="description">
@@ -21,7 +21,7 @@ const Skills = () => {
                 DevOps - SDLC - STLC - Python - Machine Learning
             </p>
           </div>
-          <div className="col-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+          <div className="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
             <div className="icon"><FaTools /></div>
             <h4 className="title">Outils</h4>
             <p className="description">
