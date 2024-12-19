@@ -31,7 +31,7 @@ const About = () => {
               <div className="col-lg-6">
                 <ul>
                   <li><strong><FaMobileAlt /> </strong> +33 6 65 61 95 40</li>
-                  <li><strong><FaMale /> </strong> 27 {t("age")}</li>
+                  <li><strong><FaMale /> </strong> {Number((new Date().getFullYear())-1997)} {t("age")}</li>
                   <li><strong><FaGlobeEurope /> </strong> {t("nationality")}</li>
                 </ul>
               </div>
