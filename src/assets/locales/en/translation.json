@@ -1,0 +1,119 @@
+{
+    "profile": "Profile",
+    "skill": "Skills",
+    "resume": "Resume",
+    "certificate": "Certifications",
+    "asset": "Assets",
+    "contact": "Contact",
+
+    "role": "QA Engineer / Software Tester",
+    "footer": "Made with agility",
+
+    "desc_1": "ISTQB certified QA Tester with over 3 years experience in manual and automated testing, with a proven track record of delivering better results in a fast-paced work environment. Experience in leading a team in the design and execution of automation scripts using Katalon Studio and Selenium.",
+    "desc_2": "My role is to guarantee software quality by designing and running tests, identifying anomalies and working with the development teams to ensure reliable deliverables to meet the requirements.",
+    "age": "years old",
+    "nationality": "Indian",
+    "status": "Married",
+    "desc_3": "Expertise in testing tools and methodologies with a strong ability to identify and resolve anomalies to optimise the user experience and reduce bugs in production.",
+
+    "skill_title": "Skills and Tools",
+    "tool": "Tools",
+
+    "and": "and",
+    "level": "level",
+    "certified": "Certified",
+    "certified_with": "Certified with",
+    "link_license": "View licence",
+    
+    "cert_title_1": "Master XPath, Css Selector, and Other Locators in Selenium",
+    "cert_title_2": "First automation script using Selenium and Java",
+    "cert_title_3": "Telecom Domain Foundation",
+    "cert_title_4": "Fundamentals of Microsoft Azure",
+    "cert_title_5": "Automation Specialist",
+    "cert_head_6": "Security Awareness",
+    "cert_title_6": "Security Awareness Fundamentals",
+    "cert_head_7": "Agile with Jira",
+    "cert_title_7": "Agile with Atlassian Jira",
+    "cert_title_8": "Agile Software Development",
+    "cert_title_9": "Data Analysis with Python",
+    "cert_title_10": "Introduction to Data Science in Python",
+    "cert_title_11": "Programming for Everybody (Getting Started with Python)",
+
+    "capgemini_univ": "Capgemini University",
+    "atlassian_univ": "Atlassian University",
+    "minnesota_univ": "Minnesota University",
+    "michigan_univ": "Michigan University",
+
+    "interest": "Areas of interest",
+    "interest_1": "Optimise software testing as part of DevOps with CI/CD integration, automated test frameworks and performance monitoring for flawless execution.",
+    "interest_tit_2": "Project management",
+    "interest_2": "Test planning, resource allocation, risk management, quality assurance, meeting deadlines and communication with stakeholders.",
+    "interest_tit_3": "Solutions architect",
+    "interest_3": "Test automation strategies, performance optimisation, integration test frameworks, scalability assessments and security and compliance validation.",
+
+    "acclaim_tit_1": "Rewards",
+    "acclaim_1": "Received Sogeti's Spotlight & Rock Start Awards for outstanding performance in 2022-2023.",
+    "acclaim_2": "As a result of my excellent performance, I was promoted to Head of Testing within two years.",
+
+    "lang_head": "Languages",
+    "lang_eng": "English",
+    "lang_eng_lvl": "Fluent",
+    "lang_fra": "French",
+    "lang_fra_lvl": "Advanced level",
+    "lang_tam": "Tamil",
+    "lang_tam_lvl": "Native language",
+
+    "india": "India",
+    "resume_1": "Professional experience",
+    "work_1": "IT Consultant / Software Engineer",
+    "year_1": "jan. 2021 - apr. 2024",
+    "desc_work1_1": "Expertise in writing test strategies, preparing and implementing test plans, designing test cases, using test tools, executing tests and managing and monitoring defects.",
+    "desc_work1_2": "In-depth experience in different types of tests such as",
+    "desc_work1_3": "Experience in methodologies",
+    "desc_work1_4": "models, such as",
+    "desc_work1_5": "the software test life cycle (STLC) and the bug life cycle",
+    "desc_work1_6": "Led a team of three",
+    "desc_work1_7": "quality assurance analysts, improving the team's efficiency by establishing new test protocols and organising regular knowledge-sharing sessions",
+    "desc_work1_8": "Ability to establish and maintain positive relationships with stakeholders, including customers, team members and suppliers.",
+    "desc_work1_9": "Experience in designing and executing reusable test scripts using",
+    "desc_work1_10": "Essential testing experience in ",
+    "desc_work1_11": "Experience in using",
+    "desc_work1_12": "for CI/CD pipelines",
+    "desc_work1_13": "Proficiency in writing",
+    "desc_work1_14": "queries to retrieve data and validations, and in executing",
+    "desc_work1_15": "commands for server start-up and backend activities",
+    "desc_work1_16": "Maîtrise des outils de gestion des tests tels que",
+    "desc_work1_17": "Accomplished",
+    "desc_work1_18": "more than 60 quality assurance tasks",
+    "desc_work1_19": "including critical projects, releases, CCNs and patches",
+    "desc_work1_20": "Collaboration with the development team to implement automated testing, which reduced test times by 30% and improved overall test accuracy by 25%.",
+    "desc_work1_21": "Ensuring complete traceability of the testing process and facilitating project audits.",
+
+    "work_2": "Technical trainee",
+    "year_2": "dec. 2018 - apr. 2019",
+    "desc_work2_1": "Solve problems in real time with modern solutions by using",
+    "desc_work2_2": "The aim of this project was to analyse the production data for corded steel bars and predict future production values using Machine Learning techniques. I used the SARIMA model in the time series analysis to predict future values.",
+    "desc_work2_3": "The purpose of « Automated Number Plate Reading (ANPR) » is to recognise the number plates of employees' cars at the Visakhapatnam steelworks. The software developed can be used to detect the number plate of the employee's car at the front door using Machine Learning algorithms and techniques.",
+    "desc_work2_4": "The objective of the Chat Bot is to create a bot to inform employees in the IT department of the Vizag steelworks. I used the ‘BotPress’ platform to create the bots.",
+
+    "resume_2": "Education",
+    "edu_1": "Employment Entry Path (PEE)",
+    "edu_desc_1": "Developing a career plan",
+    "edu_desc_2": "Work placements and career exploration",
+    "edu_desc_3": "Information and communication technologies",
+    "edu_desc_4": "Developing a career plan",
+
+    "edu_2": "Master in Computer Science",
+    "edu_place_2": "University of Pondicherry, Pondicherry",
+    
+    "edu_3": "Bachelor of Computer Applications",
+    "edu_place_3": "Saradha Gangadharan College, Pondicherry",
+
+
+
+
+    "last": ""
+
+
+
+}

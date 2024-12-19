@@ -31,6 +31,15 @@ button.btn:focus, button.btn:hover {
 }
 
 /*--------------------------------------------------------------
+# LANGUAGE SELECT
+--------------------------------------------------------------*/
+.language-select-root .language_button,
+.language-select-root:hover .language_button {
+  color: #10402e;
+  background-color: #fff;
+}
+
+/*--------------------------------------------------------------
 # BACK TO TOP
 --------------------------------------------------------------*/
 .back-to-top {
@@ -261,7 +270,7 @@ button.btn:focus, button.btn:hover {
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
-  right: 15px;
+  left: 15px;
   top: 15px;
   z-index: 9998;
   border: 0;
@@ -289,6 +298,9 @@ button.btn:focus, button.btn:hover {
 
 #close-active {
   display: none;
+}
+#close-active svg {
+  color: #fff;
 }
 
 /*--------------------------------------------------------------

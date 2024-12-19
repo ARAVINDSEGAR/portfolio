@@ -31,14 +31,18 @@ import Data_Structures_Py from '../assets/certificates/Data_Structures_Py.pdf';
 import Security_Awareness from '../assets/certificates/Security_Awareness.pdf';
 import Automation_Specialist from '../assets/certificates/Automation_Specialist.pdf';
 
+import { useTranslation } from "react-i18next";
 
 const Certifications = () => {
+
+  const { t } = useTranslation();
+
   return (
     <section id="certifications" className="certifications">
       <div className="container">
 
         <div className="section-title">
-          <h2>Certifications</h2>
+          <h2>{t("certificate")}</h2>
         </div>
 
         {/* ISTQB */}
@@ -54,10 +58,10 @@ const Certifications = () => {
                 </div>
                 <div className="card-back">
                   <div className="card-body">
-                    <p><h5>Certifié ISTQB<sup>®</sup> <br></br> CTFL v4.0</h5></p>
+                    <p><h5>{t("certified")} ISTQB<sup>®</sup> <br></br> CTFL v4.0</h5></p>
                     <p><h6>ISTQB<sup>®</sup> - International Software Testing Qualifications Board</h6></p>
-                    <p><em>août 2024</em></p>
-                    <p><a target="_blank" rel="noreferrer" href={ISTQB}>Afficher la licence</a></p>
+                    <p><em>08/2024</em></p>
+                    <p><a target="_blank" rel="noreferrer" href={ISTQB}>{t("link_license")}</a></p>
                   </div>
                 </div>
               </div>
@@ -74,10 +78,10 @@ const Certifications = () => {
                 </div>
                 <div className="card-back">
                   <div className="card-body">
-                    <p><h5>Maîtriser XPath, les sélecteurs Css et autres localisateurs dans Selenium</h5></p>
+                    <p><h5>{t("cert_title_1")}</h5></p>
                     <p><h6>Coursera Project Network</h6></p>
-                    <p><em>août 2023</em></p>
-                    <p><a target="_blank" rel="noreferrer" href={Selenium}>Afficher la licence</a></p>
+                    <p><em>08/2023</em></p>
+                    <p><a target="_blank" rel="noreferrer" href={Selenium}>{t("link_license")}</a></p>
                   </div>
                 </div>
               </div>
@@ -90,14 +94,14 @@ const Certifications = () => {
                   <div className="card-body">
                     <img src={selenium_java} className="img-fluid" alt="Selenium Java" />
                   </div>
-                  <p>Selenium et Java</p>
+                  <p>Selenium & Java</p>
                 </div>
                 <div className="card-back">
                   <div className="card-body">
-                    <p><h5>Premier script d'automatisation en utilisant Selenium et Java</h5></p>
+                    <p><h5>{t("cert_title_2")}</h5></p>
                     <p><h6>Coursera Project Network</h6></p>
-                    <p><em>août 2023</em></p>
-                    <p><a target="_blank" rel="noreferrer" href={Selenium_Java}>Afficher la licence</a></p>
+                    <p><em>08/2023</em></p>
+                    <p><a target="_blank" rel="noreferrer" href={Selenium_Java}>{t("link_license")}</a></p>
                   </div>
                 </div>
               </div>
@@ -110,14 +114,14 @@ const Certifications = () => {
                   <div className="card-body">
                     <img src={telecom} className="img-fluid" alt="Telecom Domain" />
                   </div>
-                  <p>Domaine Telecom</p>
+                  <p>Telecom</p>
                 </div>
                 <div className="card-back">
                   <div className="card-body">
-                    <p><h5>Fondation du domaine des télécommunications</h5></p>
-                    <p><h6>Capgemini Université</h6></p>
-                    <p><em>juil 2023</em></p>
-                    <p><a target="_blank" rel="noreferrer" href={Telecom}>Afficher la licence</a></p>
+                    <p><h5>{t("cert_title_3")}</h5></p>
+                    <p><h6>{t("capgemini_univ")}</h6></p>
+                    <p><em>07/2023</em></p>
+                    <p><a target="_blank" rel="noreferrer" href={Telecom}>{t("link_license")}</a></p>
                   </div>
                 </div>
               </div>
@@ -134,10 +138,10 @@ const Certifications = () => {
                 </div>
                 <div className="card-back">
                   <div className="card-body">
-                    <p><h5>Certifié QE&T - QAT (niveau 2)</h5></p>
+                    <p><h5>{t("certified")} QE&T - QAT ({t("level")} 2)</h5></p>
                     <p><h6>Capgemini</h6></p>
-                    <p><em>jan 2022</em></p>
-                    <p><a target="_blank" rel="noreferrer" href={QAT}>Afficher la licence</a></p>
+                    <p><em>01/2022</em></p>
+                    <p><a target="_blank" rel="noreferrer" href={QAT}>{t("link_license")}</a></p>
                   </div>
                 </div>
               </div>
@@ -154,10 +158,10 @@ const Certifications = () => {
                 </div>
                 <div className="card-back">
                   <div className="card-body">
-                    <p><h5>Principes de base de Microsoft Azure</h5></p>
+                    <p><h5>{t("cert_title_4")}</h5></p>
                     <p><h6>Microsoft</h6></p>
-                    <p><em>oct 2021</em></p>
-                    <p><a target="_blank" rel="noreferrer" href={Azure}>Afficher la licence</a></p>
+                    <p><em>10/2021</em></p>
+                    <p><a target="_blank" rel="noreferrer" href={Azure}>{t("link_license")}</a></p>
                   </div>
                 </div>
               </div>
@@ -174,10 +178,10 @@ const Certifications = () => {
                 </div>
                 <div className="card-back">
                   <div className="card-body">
-                    <p><h5>Spécialiste en Automation (niveau 2)</h5></p>
+                    <p><h5>{t("cert_title_5")} ({t("level")} 2)</h5></p>
                     <p><h6>Tricentis School</h6></p>
-                    <p><em>sept 2021</em></p>
-                    <p><a target="_blank" rel="noreferrer" href={Automation_Specialist}>Afficher la licence</a></p>
+                    <p><em>09/2021</em></p>
+                    <p><a target="_blank" rel="noreferrer" href={Automation_Specialist}>{t("link_license")}</a></p>
                   </div>
                 </div>
               </div>
@@ -190,14 +194,14 @@ const Certifications = () => {
                   <div className="card-body">
                     <img src={security_awareness} className="img-fluid" alt="Sécurité" />
                   </div>
-                  <p>Sensibilisation à la sécurité</p>
+                  <p>{t("cert_head_6")}</p>
                 </div>
                 <div className="card-back">
                   <div className="card-body">
-                    <p><h5>Fondamentaux de la sensibilisation à la sécurité</h5></p>
+                    <p><h5>{t("cert_title_6")}</h5></p>
                     <p><h6>KnowBe4</h6></p>
-                    <p><em>sept 2021</em></p>
-                    <p><a target="_blank" rel="noreferrer" href={Security_Awareness}>Afficher la licence</a></p>
+                    <p><em>09/2021</em></p>
+                    <p><a target="_blank" rel="noreferrer" href={Security_Awareness}>{t("link_license")}</a></p>
                   </div>
                 </div>
               </div>
@@ -216,8 +220,8 @@ const Certifications = () => {
                   <div className="card-body">
                     <p><h5>AWS Cloud Practitioner Essentials</h5></p>
                     <p><h6>AWS</h6></p>
-                    <p><em>août 2021</em></p>
-                    <p><a target="_blank" rel="noreferrer" href={AWS}>Afficher la licence</a></p>
+                    <p><em>08/2021</em></p>
+                    <p><a target="_blank" rel="noreferrer" href={AWS}>{t("link_license")}</a></p>
                   </div>
                 </div>
               </div>
@@ -228,16 +232,16 @@ const Certifications = () => {
               <div className="card card-flip">
                 <div className="card-front">
                   <div className="card-body">
-                    <img src={jira} className="img-fluid" alt="Agile avec Jira" />
+                    <img src={jira} className="img-fluid" alt="Agile Jira" />
                   </div>
-                  <p>Agile avec Jira</p>
+                  <p>{t("cert_head_7")}</p>
                 </div>
                 <div className="card-back">
                   <div className="card-body">
-                    <p><h5>Agile avec Atlassian Jira</h5></p>
-                    <p><h6>Université d'Atlassian</h6></p>
-                    <p><em>fév 2021</em></p>
-                    <p><a target="_blank" rel="noreferrer" href={Agile_Jira}>Afficher la licence</a></p>
+                    <p><h5>{t("cert_title_7")}</h5></p>
+                    <p><h6>{t("atlassian_univ")}</h6></p>
+                    <p><em>02/2021</em></p>
+                    <p><a target="_blank" rel="noreferrer" href={Agile_Jira}>{t("link_license")}</a></p>
                   </div>
                 </div>
               </div>
@@ -254,10 +258,10 @@ const Certifications = () => {
                 </div>
                 <div className="card-back">
                   <div className="card-body">
-                    <p><h5>Développement du Logiciel Agile</h5></p>
-                    <p><h6>Université du Minnesota</h6></p>
-                    <p><em>fév 2021</em></p>
-                    <p><a target="_blank" rel="noreferrer" href={Agile}>Afficher la licence</a></p>
+                    <p><h5>{t("cert_title_8")}</h5></p>
+                    <p><h6>{t("minnesota_univ")}</h6></p>
+                    <p><em>02/2021</em></p>
+                    <p><a target="_blank" rel="noreferrer" href={Agile}>{t("link_license")}</a></p>
                   </div>
                 </div>
               </div>
@@ -274,10 +278,10 @@ const Certifications = () => {
                 </div>
                 <div className="card-back">
                   <div className="card-body">
-                    <p><h5>Analyse de données avec Python</h5></p>
+                    <p><h5>{t("cert_title_9")}</h5></p>
                     <p><h6>IBM</h6></p>
-                    <p><em>jan 2020</em></p>
-                    <p><a target="_blank" rel="noreferrer" href={Data_Analysis_Py}>Afficher la licence</a></p>
+                    <p><em>01/2020</em></p>
+                    <p><a target="_blank" rel="noreferrer" href={Data_Analysis_Py}>{t("link_license")}</a></p>
                   </div>
                 </div>
               </div>
@@ -294,10 +298,10 @@ const Certifications = () => {
                 </div>
                 <div className="card-back">
                   <div className="card-body">
-                    <p><h5>Introduction à la data science en Python</h5></p>
-                    <p><h6>Université du Michigan</h6></p>
-                    <p><em>oct 2018</em></p>
-                    <p><a target="_blank" rel="noreferrer" href={Data_Science_Py}>Afficher la licence</a></p>
+                    <p><h5>{t("cert_title_10")}</h5></p>
+                    <p><h6>{t("michigan_univ")}</h6></p>
+                    <p><em>10/2018</em></p>
+                    <p><a target="_blank" rel="noreferrer" href={Data_Science_Py}>{t("link_license")}</a></p>
                   </div>
                 </div>
               </div>
@@ -315,9 +319,9 @@ const Certifications = () => {
                 <div className="card-back">
                   <div className="card-body">
                     <p><h5>Python Data Structures</h5></p>
-                    <p><h6>Université du Michigan</h6></p>
-                    <p><em>juil 2018</em></p>
-                    <p><a target="_blank" rel="noreferrer" href={Data_Structures_Py}>Afficher la licence</a></p>
+                    <p><h6>{t("michigan_univ")}</h6></p>
+                    <p><em>07/2018</em></p>
+                    <p><a target="_blank" rel="noreferrer" href={Data_Structures_Py}>{t("link_license")}</a></p>
                   </div>
                 </div>
               </div>
@@ -334,10 +338,10 @@ const Certifications = () => {
                 </div>
                 <div className="card-back">
                   <div className="card-body">
-                    <p><h5>Data Science et Big Data Analytics</h5></p>
+                    <p><h5>Data Science {t("and")} Big Data Analytics</h5></p>
                     <p><h6>Dell EMC</h6></p>
-                    <p><em>mai 2018</em></p>
-                    <p><a target="_blank" rel="noreferrer" href="https://www.certmetrics.com/dell/electronic_certificate.aspx?cert=652AAE2CF843C23023842A0D7B363180O3860AA76C097285A59F5E7E4C0AC7254">Afficher la licence</a></p>
+                    <p><em>05/2018</em></p>
+                    <p><a target="_blank" rel="noreferrer" href="https://www.certmetrics.com/dell/electronic_certificate.aspx?cert=652AAE2CF843C23023842A0D7B363180O3860AA76C097285A59F5E7E4C0AC7254">{t("link_license")}</a></p>
                   </div>
                 </div>
               </div>
@@ -354,10 +358,10 @@ const Certifications = () => {
                 </div>
                 <div className="card-back">
                   <div className="card-body">
-                    <p><h5>Programmation pour tous (Introduction à Python)</h5></p>
-                    <p><h6>Université du Michigan</h6></p>
-                    <p><em>mars 2018</em></p>
-                    <p><a target="_blank" rel="noreferrer" href={Python}>Afficher la licence</a></p>
+                    <p><h5>{t("cert_title_11")}</h5></p>
+                    <p><h6>{t("michigan_univ")}</h6></p>
+                    <p><em>03/2018</em></p>
+                    <p><a target="_blank" rel="noreferrer" href={Python}>{t("link_license")}</a></p>
                   </div>
                 </div>
               </div>

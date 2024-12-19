@@ -15,7 +15,12 @@ import { FaBars, FaTimes, FaAngleUp, FaHome, FaUser, FaFile, FaToolbox, FaTools,
 import * as Scroll from 'react-scroll';
 import profile from './assets/profile-thumbnail.jpg'
 
+import { useTranslation } from "react-i18next";
+import LanguageSelect from "./languageSelect";
+
 const App = () => {
+
+  const { t } = useTranslation();
 
   // Init AOS 
   const aos_init = () => {
@@ -59,6 +64,8 @@ const App = () => {
   return (
     <div className="App">
 
+      <LanguageSelect />  
+
       <div className="mobile-nav-toggle d-xl-none">
         <span id="bar-active" onClick={closeMenu}><FaBars /></span>
         <span id="close-active" onClick={openMenu}><FaTimes /></span>
@@ -92,7 +99,7 @@ const App = () => {
                 offset={-70}
                 duration={1000}
               >
-                <span><FaUser /> Profile</span>
+                <span><FaUser /> {t("profile")}</span>
               </Link>
 
               <Link
@@ -102,7 +109,7 @@ const App = () => {
                 offset={-70}
                 duration={1000}
               >
-                <span><FaTools /> Compétences</span>
+                <span><FaTools /> {t("skill")}</span>
               </Link>
 
               <Link
@@ -112,7 +119,7 @@ const App = () => {
                 offset={-70}
                 duration={1000}
               >
-                <span><FaFile /> Resume</span>
+                <span><FaFile /> {t("resume")}</span>
               </Link>
 
               <Link
@@ -122,7 +129,7 @@ const App = () => {
                 offset={-70}
                 duration={1000}
               >
-                <span><FaToolbox /> Certifications</span>
+                <span><FaToolbox /> {t("certificate")}</span>
               </Link>
 
               <Link
@@ -132,7 +139,7 @@ const App = () => {
                 offset={-70}
                 duration={1000}
               >
-                <span><FaTools /> Atouts</span>
+                <span><FaTools /> {t("asset")}</span>
               </Link>
 
               <Link
@@ -142,7 +149,7 @@ const App = () => {
                 offset={-70}
                 duration={1000}
               >
-                <span><FaHome /> Contact</span>
+                <span><FaHome /> {t("contact")}</span>
               </Link>
 
             </ul>
@@ -154,7 +161,7 @@ const App = () => {
       <section id="home" className="d-flex flex-column justify-content-center align-items-center">
         <div className="home-container" data-aos="fade-in">
           <h1>Aravind SEGAR</h1>
-          <p>Ingénieur QA / Testeur logiciel</p>
+          <p>{t("role")}</p>
         </div>
       </section>
 
@@ -175,7 +182,7 @@ const App = () => {
             &copy; Copyright - Aravind SEGAR
       </div>
           <div className="credits d-flex">
-            Réalisé avec agilité <div className="heart-beat pl-2 h-50"><FaHeart /></div>
+          {t("footer")} <div className="heart-beat pl-2 h-50"><FaHeart /></div>
 
           </div>
         </div>
