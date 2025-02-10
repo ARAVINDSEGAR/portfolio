@@ -62,55 +62,74 @@
     "lang_fra_lvl": "Advanced level",
     "lang_tam": "Tamil",
     "lang_tam_lvl": "Native language",
-
+    
     "india": "India",
+    "pondy": "Pondicherry",
     "resume_1": "Professional experience",
-    "work_1": "IT Consultant / Software Engineer",
-    "year_1": "jan. 2021 - apr. 2024",
-    "desc_work1_1": "Expertise in writing test strategies, preparing and implementing test plans, designing test cases, using test tools, executing tests and managing and monitoring defects.",
-    "desc_work1_2": "In-depth experience in different types of tests such as",
-    "desc_work1_3": "Experience in methodologies",
-    "desc_work1_4": "models, such as",
-    "desc_work1_5": "the software test life cycle (STLC) and the bug life cycle",
-    "desc_work1_6": "Led a team of three",
-    "desc_work1_7": "quality assurance analysts, improving the team's efficiency by establishing new test protocols and organising regular knowledge-sharing sessions",
-    "desc_work1_8": "Ability to establish and maintain positive relationships with stakeholders, including customers, team members and suppliers.",
-    "desc_work1_9": "Experience in designing and executing reusable test scripts using",
-    "desc_work1_10": "Essential testing experience in ",
-    "desc_work1_11": "Experience in using",
-    "desc_work1_12": "for CI/CD pipelines",
-    "desc_work1_13": "Proficiency in writing",
-    "desc_work1_14": "queries to retrieve data and validations, and in executing",
-    "desc_work1_15": "commands for server start-up and backend activities",
-    "desc_work1_16": "Maîtrise des outils de gestion des tests tels que",
-    "desc_work1_17": "Accomplished",
-    "desc_work1_18": "more than 60 quality assurance tasks",
-    "desc_work1_19": "including critical projects, releases, CCNs and patches",
-    "desc_work1_20": "Collaboration with the development team to implement automated testing, which reduced test times by 30% and improved overall test accuracy by 25%.",
-    "desc_work1_21": "Ensuring complete traceability of the testing process and facilitating project audits.",
-
-    "work_2": "Technical trainee",
-    "year_2": "dec. 2018 - apr. 2019",
-    "desc_work2_1": "Solve problems in real time with modern solutions by using",
-    "desc_work2_2": "The aim of this project was to analyse the production data for corded steel bars and predict future production values using Machine Learning techniques. I used the SARIMA model in the time series analysis to predict future values.",
-    "desc_work2_3": "The purpose of « Automated Number Plate Reading (ANPR) » is to recognise the number plates of employees' cars at the Visakhapatnam steelworks. The software developed can be used to detect the number plate of the employee's car at the front door using Machine Learning algorithms and techniques.",
-    "desc_work2_4": "The objective of the Chat Bot is to create a bot to inform employees in the IT department of the Vizag steelworks. I used the ‘BotPress’ platform to create the bots.",
-
     "resume_2": "Education",
+
+    "work_4": "Quality Engineer (Internship)",
+    "year_4": "jan. 2025",
+    "desc_work4_1": "Analyse the requirements of the business and prepare the test strategy.",
+    "desc_work4_2": "Participating in the creation of test cases and project management in JIRA.",
+    "desc_work4_3": "Lead a training session for trainees on",
+    
+    "work_3": "IT Consultant / Software Engineer",
+    "year_3": "jan. 2021 - apr. 2024",
+    "desc_work3_1": "Expertise in writing test strategies, preparing and implementing test plans, designing test cases, using test tools, executing tests and managing and monitoring defects.",
+    "desc_work3_2": "In-depth experience in different types of tests such as",
+    "desc_work3_3": "Experience in methodologies",
+    "desc_work3_4": "models, such as",
+    "desc_work3_5": "the software test life cycle (STLC) and the bug life cycle",
+    "desc_work3_6": "Led a team of three",
+    "desc_work3_7": "quality assurance analysts, improving the team's efficiency by establishing new test protocols and organising regular knowledge-sharing sessions",
+    "desc_work3_8": "Ability to establish and maintain positive relationships with stakeholders, including customers, team members and suppliers.",
+    "desc_work3_9": "Experience in designing and executing reusable test scripts using",
+    "desc_work3_10": "Essential testing experience in ",
+    "desc_work3_11": "Experience in using",
+    "desc_work3_12": "for CI/CD pipelines",
+    "desc_work3_13": "Proficiency in writing",
+    "desc_work3_14": "queries to retrieve data and validations, and in executing",
+    "desc_work3_15": "commands for server start-up and backend activities",
+    "desc_work3_16": "Maîtrise des outils de gestion des tests tels que",
+    "desc_work3_17": "Accomplished",
+    "desc_work3_18": "more than 60 quality assurance tasks",
+    "desc_work3_19": "including critical projects, releases, CCNs and patches",
+    "desc_work3_20": "Collaboration with the development team to implement automated testing, which reduced test times by 30% and improved overall test accuracy by 25%.",
+    "desc_work3_21": "Ensuring complete traceability of the testing process and facilitating project audits.",
+
+    "work_2": "Junior QA Analyst",
+    "year_2": "may. 2019 - jan. 2021",
+    "desc_work2_1": "Creation and execution of functional and non-regression test campaigns.",
+    "desc_work2_2": "Creation and documentation of anomalies in",
+    "desc_work2_3": ", with prioritisation based on criticality.",
+    "desc_work2_4": "Develop and maintain test data and environments, ensuring accurate and consistent test results.",
+    "desc_work2_5": "Creation of complete test cases to validate API operations such as",
+    "desc_work2_6": "Preparing and enhancing",
+    "desc_work2_7": "queries for extracting and manipulating data.",
+
+    "work_1": "Technical trainee",
+    "year_1": "dec. 2018 - apr. 2019",
+    "desc_work1_1": "Solve problems in real time with modern solutions by using",
+    "desc_work1_2": "The aim of this project was to analyse the production data for corded steel bars and predict future production values using Machine Learning techniques. I used the SARIMA model in the time series analysis to predict future values.",
+    "desc_work1_3": "The purpose of « Automated Number Plate Reading (ANPR) » is to recognise the number plates of employees' cars at the Visakhapatnam steelworks. The software developed can be used to detect the number plate of the employee's car at the front door using Machine Learning algorithms and techniques.",
+    "desc_work1_4": "The objective of the Chat Bot is to create a bot to inform employees in the IT department of the Vizag steelworks. I used the ‘BotPress’ platform to create the bots.",
+
+
     "edu_1": "Employment Entry Path (PEE)",
     "edu_desc_1": "Developing a career plan",
     "edu_desc_2": "Work placements and career exploration",
     "edu_desc_3": "Information and communication technologies",
     "edu_desc_4": "Developing a career plan",
-
+    
     "edu_2": "Master in Computer Science",
-    "edu_place_2": "University of Pondicherry, Pondicherry",
+    "edu_place_2": "University of Pondicherry",
     
     "edu_3": "Bachelor of Computer Applications",
-    "edu_place_3": "Saradha Gangadharan College, Pondicherry",
-
-
-
+    "edu_place_3": "Saradha Gangadharan College",
+    
+    
+    
 
     "last": ""
 
