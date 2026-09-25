@@ -19,7 +19,7 @@ const Skills = () => {
             <div className="icon"><FaLaptopCode /></div>
             <h4 className="title">{t("skill")}</h4>
             <p className="description">
-                Selenium - Java - Agile - UNIX - SQL - API - Azure
+                Javascript - GraphQL - API - Agile - UNIX - SQL - Java
                 <br></br>
                 DevOps - SDLC - STLC - Python - Machine Learning
             </p>
@@ -28,9 +28,11 @@ const Skills = () => {
             <div className="icon"><FaTools /></div>
             <h4 className="title">{t("tool")}</h4>
             <p className="description">
-              Katalon Studio - Oracle SQL - Putty - Git - Bitbucket 
+              Cypress - Katalon Studio - Selenium - Oracle SQL
               <br></br>
-              Jenkins - Waterfall - Jira - Confluence - Microsoft Office
+              Putty - Bitbucket - Git - Postman - Jenkins
+              <br></br>
+              Jira - Confluence - Waterfall - Notion - AI tools & MCPs
             </p>
           </div>
         </div>

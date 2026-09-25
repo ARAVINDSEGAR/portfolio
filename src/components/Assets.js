@@ -69,7 +69,7 @@ const Assets = () => {
                         <div className="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="100">
                             <div className="icon"><i className="fa fa-language"></i></div>
                             <h4 className="title"><strong> {t("lang_fra")}</strong></h4>
-                            <p className="description"><span><em> - {t("lang_fra_lvl")} <br></br> ( {t("certified_with")} <u>DELF A2</u> )</em></span></p>
+                            <p className="description"><span><em> - {t("lang_fra_lvl")}</em></span></p>
                         </div>
                         <div className="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="100">
                             <div className="icon"><i className="fa fa-language"></i></div>

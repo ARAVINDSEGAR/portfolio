@@ -16,6 +16,30 @@ const Resume = () => {
             <div className="col-lg-12" data-aos="fade-up">
 
               <div className="resume-item pb-1">
+                <h4>{t("work_6")}</h4>
+                <h5>{t("year_6")}</h5>
+                <p><em>Heex Technologies, Paris, France</em></p>
+                <ul>
+                  <li>{t("desc_work6_1")}</li>
+                  <li>{t("desc_work6_2")} <strong>50+ Cypress E2E scripts</strong> {t("desc_work6_3")} <strong>300+ API tests (REST/GraphQL)</strong>, {t("desc_work6_4")}</li>
+                  <li>{t("desc_work6_5")} <strong>CI pipelines</strong> {t("desc_work6_6")}</li>
+                  <li>{t("desc_work6_7")}</li>
+                </ul>
+              </div>
+
+              <div className="resume-item pb-1">
+                <h4>{t("work_5")}</h4>
+                <h5>{t("year_5")}</h5>
+                <p><em>Codoc, Paris, France</em></p>
+                <ul>
+                  <li>{t("desc_work5_1")}</li>
+                  <li>{t("desc_work5_2")} <strong>Cypress (JS)</strong>, {t("desc_work5_3")}</li>
+                  <li>{t("desc_work5_4")}</li>
+                  <li>{t("desc_work5_5")}</li>
+                </ul>
+              </div>
+
+              <div className="resume-item pb-1">
                 <h4>{t("work_4")}</h4>
                 <h5>{t("year_4")}</h5>
                 <p><em>2T Conseil, Vitry-sur-Seine, France</em></p>
